@@ -1,0 +1,7 @@
+version: "3.7"
+services:
+  flaskpy_project:
+    image: flaskpy_project:latest       
+    ports:
+      #cổng ngoài:cổng trong container
+      - 8888:8000
